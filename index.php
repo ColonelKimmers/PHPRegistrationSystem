@@ -21,14 +21,20 @@
 				<form>
     				<fieldset class="uk-fieldset js.login">
 
-        				<legend class="uk-legend">Create an account</legend>
+        				<legend class="uk-legend">Login</legend>
 
        					<div class="uk-margin">
-            				<input class="uk-input" type="email" required='required' placeholder="Email">
+       						<label class="uk-form.label" for="form.stacked-text">Email</label>
+       						<div class="uk-form.controls">
+            					<input class="uk-input" type="email" required='required' placeholder="Email">
+            				</div>
         				</div>
 
         				<div class="uk-margin">
-            				<input class="uk-input" type="password" required='required' placeholder="Password">
+        					<label class="uk-form.label" for="form.stacked-text">Password</label>
+        					<div class="uk-form.controls">
+            					<input class="uk-input" type="password" required='required' placeholder="Password">
+            				</div>
         				</div>
 
         				<div class="uk-margin">
